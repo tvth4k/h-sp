@@ -10,7 +10,7 @@ var logger = require('./logger');
                         fs.removeSync('../fca-horizon-tvt');
                             // why stdio is not studio :v 
                         await new Promise(resolve => setTimeout(resolve, 2*1000))
-                    execSync('npm i https://github.com/tvth4k/fcahorizont', { stdio: 'ignore'})
+                    execSync('npm i https://github.com/tvth4k/fcahorizon', { stdio: 'ignore'})
                 logger("Đã Thành Công - Tiến Hành Restart", "[ FCA - SP ]");
             process.exit(1);
         }
