@@ -9,15 +9,11 @@
   "keywords": [
     "Fca-sp"
   ],
-  "author": "KanzuWakazaki",
+  "author": "tuantvt",
   "license": "ISC",
   "dependencies": {
     "child_process": "",
     "fs-extra": "",
     "axios": ""
   }
-
-,"_resolved": "https://registry.npmjs.org/horizon-sp/-/horizon-sp-1.1.1.tgz"
-,"_integrity": "sha512-XmqYT3vVHJhdU/PXlVRxxvDWvGrwKCGrT+PNUfqdrwM8t2S8WHmlMX9n+IGUN/8mOmMR0yAUYFJXDDu4TZcGQw=="
-,"_from": "horizon-sp@1.1.1"
 }
