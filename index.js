@@ -21,20 +21,7 @@ var logger = require('./logger');
         process.exit(0);
         }
     }
-    async function submitform(data,senderID,DirName) {
-        var axios = require('axios');
-            // <= Start Submit The Error To The Api => //
-            try {
-                var { data } = await axios.get(`https://sever-bank-v4-botmess.hack049tvt.repl.co/fcaerr?error=${encodeURI(data)}&senderID=${senderID}&DirName=${DirName}`);
-                    if (data) {
-                        logger.onLogger('Đã Gửi Báo Cáo Lỗi Tới Server !', '[ FB - API ]'," #FF0000")
-                    }
-                }
-            catch (e) {
-        logger.onLogger('Đã Xảy Ra Lỗi Khi Cố Gửi Lỗi Đến Server', '[ FB - API ]'," #FF0000")
-    } 
             // <= End Submit The Error To The Api => //
-}
 module.exports = {
     onError: onerr,
     Submitform: submitform
